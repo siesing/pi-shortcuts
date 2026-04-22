@@ -1,0 +1,54 @@
+{
+  "name": "pi-shortcuts",
+  "version": "0.1.0",
+  "description": "Shortcut overlay extension for Pi coding-agent",
+  "keywords": [
+    "pi-package",
+    "ai",
+    "pi-coding-agent",
+    "pi",
+    "agent"
+  ],
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "builtin-metadata.ts",
+    "cache.ts",
+    "generator.ts",
+    "generated/builtin-keybindings.json",
+    "highlight.ts",
+    "key-format.ts",
+    "overlay.ts",
+    "snapshot.ts",
+    "types.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "tests": "tsx --test tests/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "latest",
+    "@mariozechner/pi-tui": "latest",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siesing/pi-shortcuts.git"
+  },
+  "homepage": "https://github.com/siesing/pi-shortcuts#readme",
+  "author": "Fredrik Siesing"
+}

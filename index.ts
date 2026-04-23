@@ -157,14 +157,14 @@ async function showOverlay(pi: ExtensionAPI, ctx: ExtensionContext): Promise<voi
 
 export default function keybindingsOverlayExtension(pi: ExtensionAPI) {
   pi.registerCommand("shortcuts", {
-    description: "Show searchable keybindings overlay",
+    description: "Show searchable keybindings & commands overlay",
     handler: async (_args, ctx) => {
       await showOverlay(pi, ctx);
     },
   });
 
   pi.registerShortcut(Key.ctrlAlt("k"), {
-    description: "Show searchable keybindings overlay",
+    description: "Show searchable keybindings & commands overlay",
     handler: async (ctx) => {
       await showOverlay(pi, ctx);
     },

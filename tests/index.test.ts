@@ -197,7 +197,7 @@ test("extension registers the /shortcuts command", () => {
   assert.deepEqual(commands, [
     {
       name: "shortcuts",
-      description: "Show searchable keybindings overlay",
+      description: "Show searchable keybindings & commands overlay",
     },
   ]);
   assert.equal(shortcuts.length, 1);

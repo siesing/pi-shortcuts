@@ -7,3 +7,4 @@ coverage/
 !.env.example
 docs/
 .pi/
+.pi-shortcuts-cache/

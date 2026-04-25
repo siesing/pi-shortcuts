@@ -39,6 +39,10 @@ Open the overlay with either:
 - `/shortcuts`
 - `Ctrl+Alt+K`
 
+Screenshot:
+
+![pi-shortcuts](assets/pi-shortcuts-screenshot.png)
+
 Inside the overlay:
 
 - Type to filter results

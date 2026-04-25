@@ -1,5 +1,5 @@
 {
-  "name": "pi-shortcuts",
+  "name": "@siesing/pi-shortcuts",
   "version": "0.1.0",
   "description": "Shortcut overlay extension for Pi coding-agent",
   "keywords": [

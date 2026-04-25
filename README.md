@@ -22,14 +22,14 @@ It gives you a fast in-app reference for pi's built-in keybindings and any exten
 ### Option A: Global Install (recommended)
 
 ```bash
-pi install npm:pi-shortcuts
+pi install npm:@siesing/pi-shortcuts
 ```
 
 ### Option B: Single Project-Local Install
 
 ```bash
 cd my-project
-pi install -l npm:pi-shortcuts
+pi install -l npm:@siesing/pi-shortcuts
 ```
 
 ## Usage

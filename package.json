@@ -16,6 +16,7 @@
     ]
   },
   "files": [
+    "assets",
     "index.ts",
     "builtin-metadata.ts",
     "cache.ts",
@@ -33,6 +34,9 @@
     "tests": "tsx --test tests/**/*.test.ts",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run typecheck && npm run tests"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": ">=0.68 <1",

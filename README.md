@@ -1,5 +1,7 @@
 # pi-shortcuts
 
+[![npm version](https://img.shields.io/npm/v/@siesing/pi-shortcuts)](https://www.npmjs.com/package/@siesing/pi-shortcuts)
+
 A small [pi coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent) extension that adds a searchable keyboard and command shortcuts overlay.
 
 It gives you a fast in-app reference for pi's built-in keybindings and any extension commands currently loaded in the session.

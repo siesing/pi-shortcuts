@@ -1,6 +1,6 @@
 {
   "name": "@siesing/pi-shortcuts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shortcut overlay extension for Pi coding-agent",
   "keywords": [
     "pi-package",
@@ -13,7 +13,8 @@
   "pi": {
     "extensions": [
       "./index.ts"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/siesing/pi-shortcuts/main/assets/pi-shortcuts-screenshot.png"
   },
   "files": [
     "assets",
